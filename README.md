@@ -78,7 +78,7 @@ In the architecture, you can configure your infrastructure using the followings,
 
     - Prepare Django environment on EC2 instance based on Developer Notes,
 
-    - Download the "clarusway_aws_capstone" folder from Github repository,
+    - Download the "aws_capstone_static-s3" folder from Github repository,
 
     - Install the requirements using requirements.txt
 
@@ -88,7 +88,7 @@ In the architecture, you can configure your infrastructure using the followings,
 
     - EC2 Instances type can be configured as `t2.micro`.
 
-    - Instance launched should be tagged `Clarusway AWS Capstone Project`
+    - Instance launched should be tagged `AWS Capstone Project`
 
     - Since Django App needs to talk with S3, S3 full access role must be attached EC2s. 
 
@@ -170,7 +170,7 @@ In the architecture, you can configure your infrastructure using the followings,
 ## Project Skeleton 
 
 ```text
-clarusway_blog_proj (folder)
+aws_capstone_static-s3 (folder)
 |
 |----Readme.md               # Given to the students (Definition of the project)
 |----src (folder)            # Given to the students (Django Application's )
