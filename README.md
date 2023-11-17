@@ -80,7 +80,7 @@ In the architecture, you can configure your infrastructure using the followings,
 
     - Download the "clarusway_aws_capstone" folder from Github repository,
 
-    - Install the requirements using requirements.txt in 'clarusway_aws_capstone' folder
+    - Install the requirements using requirements.txt
 
     - Deploy the Django application on port 80.
 
@@ -256,13 +256,13 @@ clarusway_blog_proj (folder)
 
 - Step 4: Create two S3 Buckets and set one of these as static website.
 
-- Step 5: Download or clone project definition from `Clarusway` repo on Github 
+- Step 5: Download or clone project definition 
 
 - Step 6: Prepare your Github repository 
 
 - Step 7: Prepare a userdata to be utilized in Launch Template
 
-- Step 8: Write RDS, S3 in settings file given by Clarusway Fullstack Developer team  
+- Step 8: Write RDS, S3 in settings file given by Developer team  
 
 - Step 9: Create NAT Instance in Public Subnet
 
